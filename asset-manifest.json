@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2db354fc.css",
+    "main.js": "/static/js/main.e5b41ddc.js",
+    "static/media/cutecat.gif": "/static/media/cutecat.c990dc47293793abd0ee.gif",
+    "static/media/reactImage.jpg": "/static/media/reactImage.92d20bcc4783e1de3df5.jpg",
+    "static/media/edmontonImage.jpg": "/static/media/edmontonImage.49811beabbe2fbcd32a9.jpg",
+    "static/media/redux.png": "/static/media/redux.b5fd543a96fa14a8b6d3.png",
+    "index.html": "/index.html",
+    "main.2db354fc.css.map": "/static/css/main.2db354fc.css.map",
+    "main.e5b41ddc.js.map": "/static/js/main.e5b41ddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2db354fc.css",
+    "static/js/main.e5b41ddc.js"
+  ]
+}
