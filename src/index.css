@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+  background-color: #faedcd;
+}
+.not-found {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+  background-color: #faedcd;
+  font-size: 40px;
+  font-style: italic;
+}

@@ -1,0 +1,9 @@
+.Home {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+}
+.modal-timer {
+	vertical-align: middle;
+}

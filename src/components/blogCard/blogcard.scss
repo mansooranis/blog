@@ -1,0 +1,67 @@
+.div-blog-card {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+    .blog-card-image {
+        width: 250px;
+        object-fit: cover;
+        height: 150px;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        justify-self: center;
+    }
+    .blog-card-title {
+        font-size: 13px;
+        padding: 3px;
+        width: 250px;
+    }
+    .blog-card-info {
+        font-size: 11px;
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-style: italic;
+    }
+    .blog-card-image:hover {
+        transform: scale(1.05);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Media query */
+    @media (min-width: 425px) and (max-width: 768px) {
+        .blog-card-image {
+            width: 350px;
+            height: 200px;
+        }
+        .blog-card-title {
+            width: 350px;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .blog-card-image {
+            width: 450px;
+            height: 250px
+        }
+        .blog-card-title {
+            width: 450px;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .blog-card-image {
+            width: 550px;
+            height: 300px;
+        }
+        .blog-card-title {
+            width: 550px;
+            font-size: 16px;
+        }
+    }
+}
