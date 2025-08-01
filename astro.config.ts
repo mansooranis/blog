@@ -23,7 +23,7 @@ import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 export default defineConfig({
 	site: siteConfig.url,
 	image: {
-		domains: ["webmention.io"],
+		domains: ["mansoor.app"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
