@@ -1,0 +1,23 @@
+---
+import { render } from "astro:content";
+import ReferenceLayout from "@/layouts/BlogReference.astro";
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+import { getCollection } from "astro:content";
+
+export const getStaticPaths = (async () => {
+	const references = await getCollection("reference");
+	return references.map((ref) => ({
+		params: { slug: ref.id },
+		props: { ref },
+	}));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { ref } = Astro.props;
+const { Content } = await render(ref);
+---
+
+<ReferenceLayout reference={ref}>
+	<Content />
+</ReferenceLayout>

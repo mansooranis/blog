@@ -16,8 +16,8 @@ export function getFormattedDate(
 }
 
 export function collectionDateSort(
-	a: CollectionEntry<"post" | "note">,
-	b: CollectionEntry<"post" | "note">,
+	a: CollectionEntry<"post" | "note" | "reference">,
+	b: CollectionEntry<"post" | "note" | "reference">,
 ) {
 	return b.data.publishDate.getTime() - a.data.publishDate.getTime();
 }

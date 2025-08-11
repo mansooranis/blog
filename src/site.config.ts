@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
 		- The link value found in src/components/layout/Header.astro L:35
 		- In the footer found in src/components/layout/Footer.astro L:12
 	*/
-	title: "Astro Cactus",
+	title: "Mansoor's Blog",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
 	url: "https://blog.mansoor.app",
 };
@@ -48,6 +48,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/notes/",
 		title: "Notes",
 	},
+	{
+		path: "/references/",
+		title: "References",
+	}
 ];
 
 // https://expressive-code.com/reference/configuration/

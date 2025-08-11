@@ -4,7 +4,7 @@ import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@/components/FormattedDate.astro";
 
 interface Props {
-	content: CollectionEntry<"post">;
+	content: CollectionEntry<"post" | "reference">;
 	readingTime: string;
 }
 
@@ -39,7 +39,12 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 	<p class="font-semibold">
 		<FormattedDate date={data.publishDate} dateTimeOptions={dateTimeOptions} /> /{" "}
-		{readingTime}
+		{readingTime} /
+		<div>
+			<b>
+				<a href="https://www.buymeacoffee.com/mansooranis" target="_blank">buy me a coffee 🥺</a></b
+			>
+		</div>
 	</p>
 	{
 		data.updatedDate && (
