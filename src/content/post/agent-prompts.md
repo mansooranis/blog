@@ -8,7 +8,7 @@ draft: false
 
 Ever wondered how Claude Code manages to be so much more than just a chat interface? How it can actually execute commands, analyze code, and work with your filesystem intelligently? The secret lies in a sophisticated collection of **system tools** that transform Claude from a conversational AI into a powerful coding agent.
 
-In this blog post I will reveal the exact system prompts Claude code uses. I dug through Claude's compiled source code and found more than 25+ system tool prompts. I will also explain how these tools are beneficial and can be used to our advantage.
+In this blog post I will reveal the exact system prompts Claude code uses. I dug through Claude's compiled source code and found more than 25 system tool prompts. I will also explain how these tools are beneficial and can be used to our advantage.
 
 ## What Makes Agentic AI Actually Work?
 
