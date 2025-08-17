@@ -1,5 +1,5 @@
 ---
-title: Bash Script to Save User Session Tool
+title: Bash Script to Save User Session Tool System Prompt
 description: Bash script to save user session as a snapshot and use as context in the future.
 publishDate: "04 August 2025"
 ---

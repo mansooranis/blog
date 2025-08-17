@@ -1,5 +1,5 @@
 ---
-title: Some Tool System Prompt
+title: Multiple Edits Tool System Prompt
 description: A tool for making multiple edits to a single file in one operation.
 publishDate: "05 August 2025"
 isPromptReference: true
