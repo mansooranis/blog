@@ -31,7 +31,7 @@ I dug deep into claude code's compiled code and found out these 25 system prompt
 22. [Bash Script to Save User Session Tool](/references/prompts/save-session-snapshot)
 23. [Summarize and Clear Conversation Tool System Prompt](/references/prompts/summarize-and-clear)
 24. [Use Tools System Prompt](/references/prompts/usetools)
-25. [Web Search Tool System Prompt](/references/prompts/websearch)
+25. [Web Search Tool System Prompt](/references/prompts/websearchtool)
 
 
 To learn more about these tools check out [this blog post](/posts/agent-prompts).
